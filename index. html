@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GigaBlocks.ai</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🤖 GigaBlocks.ai</h1>
+
+<p>Your AI Assistant for Bloxd.io</p>
+
+<input
+id="question"
+type="text"
+placeholder="Ask anything about Bloxd.io..."
+>
+
+<button onclick="askAI()">
+Send
+</button>
+
+<div id="answer">
+Hello! I am GigaBlocks.ai.
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
